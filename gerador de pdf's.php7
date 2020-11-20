@@ -73,7 +73,7 @@ class PDF_E extends FPDF_FONTPATH{
 	$pdf->SetFont('Arial','B',12);
 		$pdf->PDF_set_info_author('');
 	// Nome do documento + Formato .txt
-	$pdf->print('.txt')
+	$pdf->print('.txt');
 		$pdf->Output();
 
 ?>
